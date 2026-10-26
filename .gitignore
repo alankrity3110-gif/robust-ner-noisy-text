@@ -1,0 +1,22 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+
+# Model checkpoints and datasets
+*.safetensors
+*.pt
+*.pth
+data/
+checkpoints/
+
+# Experiment outputs
+outputs/
